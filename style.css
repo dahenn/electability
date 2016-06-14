@@ -1,0 +1,94 @@
+html {
+  padding:5%;
+  background: #e0e0e0;
+}
+body {
+  font: 14px Ubuntu;
+  color:#e0e0e0;
+  background-color: #363844;
+}
+
+#red {color:#c14949;}
+#blue {color:#4b50af;}
+
+h1.main{
+  font-size:4em;
+  text-align: center;
+  background:red;
+  margin-top: -25px;
+}
+
+text {fill:#e0e0e0;}
+a, a:visited{color:#bbb;}
+p, h3, h2, li {line-height: 1.5em;}
+p, li {
+  font-size: 1.1em;
+}
+p {
+  text-indent: 2em;
+}
+.no-indent p {text-indent: 0;}
+h2 {
+  text-align: center;
+  width:100%;
+  padding:10px;
+  background-color: #454856;
+  border-radius: 2px;
+}
+h3 {font-size: 1.25em;}
+div{
+  width:900px;
+  margin:auto;
+}
+
+p, h3{padding:0 15px;}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #919191;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+#chart1 .x.axis text, #chart1 .x.axis g.tick {display: none;}
+
+text.label {
+  fill:#e0e0e0;
+  font-weight: bold;
+}
+
+#chart1{
+  width:900px;
+  margin:auto;
+}
+
+.bar-positive {
+  fill:#2d875a;
+}
+.bar-negative {
+  fill:#4d5ba5;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    width: 205px;
+    height: 65px;
+    padding: 2px;
+    background: #454856;;
+    border: 1px solid #333;
+    border-radius: 2px;
+    pointer-events: none;
+    line-height: 16px;
+}
+
+.c-box text {
+  fill:#4d5ba5;
+  font-weight: bold;
+}
+
+.s-box text {
+  fill:#2d875a;
+  font-weight: bold;
+}
