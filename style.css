@@ -1,21 +1,33 @@
-html {
+/*html {
   padding:5%;
-  background: #e0e0e0;
-}
+  background: #424242;
+}*/
 body {
   font: 14px Ubuntu;
   color:#e0e0e0;
   background-color: #363844;
 }
 
-#red {color:#c14949;}
-#blue {color:#4b50af;}
+.green {color:#2d875a;}
+.blue {color:#4d5ba5;}
+.orange {color: #8e5400;}
+.dark-grey{color:#3b3b3b;}
+.light-grey{color:#c3c3c3;}
 
 h1.main{
-  font-size:4em;
+  font-size:4.3em;
   text-align: center;
-  background:red;
-  margin-top: -25px;
+  font-variant: small-caps;
+  word-spacing: 0.5em;
+  letter-spacing: 0.05em;
+}
+
+h1.sub {
+  font-size: 3.2em;
+  text-align: center;
+  font-variant: small-caps;
+  word-spacing: 2em;
+  letter-spacing: 0.12em;
 }
 
 text {fill:#e0e0e0;}
@@ -30,10 +42,10 @@ p {
 .no-indent p {text-indent: 0;}
 h2 {
   text-align: center;
-  width:100%;
   padding:10px;
   background-color: #454856;
-  border-radius: 2px;
+  border-radius: 6px;
+  font-weight: 500;
 }
 h3 {font-size: 1.25em;}
 div{
@@ -57,9 +69,17 @@ text.label {
   font-weight: bold;
 }
 
-#chart1{
+#container{
   width:900px;
   margin:auto;
+  background-color: #454856;
+  border-radius: 6px;
+}
+
+#chart1 svg {
+  margin: 0 15px 15px 15px;
+  background-color: #363844;
+  border-radius: 12px;
 }
 
 .bar-positive {

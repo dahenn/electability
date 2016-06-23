@@ -1,6 +1,6 @@
 // Set the dimensions of the canvas / graph
 var chart1margin = {top: 30, right: 20, bottom: 30, left: 50},
-    chart1width = 900 - chart1margin.left - chart1margin.right,
+    chart1width = 870 - chart1margin.left - chart1margin.right,
     chart1height = 600 - chart1margin.top - chart1margin.bottom;
 
 // Set the ranges
